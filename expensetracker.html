@@ -1,0 +1,71 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>EXPENSE TRACKER</h1>
+    <form>
+        <label for="23"> EXPENSE NAME</label>
+        <br>
+        
+        
+
+        <input type="text" id="23">
+        <br>
+        <br>
+
+
+        <label for="amount">AMOUNT</label><br><br>
+        
+
+        <input type="number" id="amount">
+        <br>
+        <br>
+
+
+        <label for="date"> date</label>
+        <br>
+        <br>
+
+        <input type="date" id="date">
+        <br>
+
+
+
+
+
+    </form>
+    <table>
+        <tr>
+            <th></th>
+        </tr>
+    </table>
+    
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="expensettracker.css">
+</head>
+<body>
+    <h1>Expense Tracker</h1>
+    <div class="container">
+        <p>NAME:</p><input type="text" id="expense name" placeholder="Enter expense name">
+        <p>DESCRIPTION:</p><input type="text" id="description" placeholder="Enter description">
+        <p>DATE:</p><input type="text" id="date" placeholder="DD\MM\YY">
+        <p>AMOUNT:</p><input type="number" id="amount" placeholder="Enter amount">
+        <button onclick="addExpense()">Add Expense</button>
+        <h2>Expenses</h2>
+        <ul id="expenseList"></ul>
+        <h3>Total: $<span id="totalAmount">0</span></h3>
+    </div>
+    <script src="frst.js"></script>
+</body>
+</html>
