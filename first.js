@@ -10,6 +10,7 @@ function addExpense() {
         alert('Please enter a valid description and amount.');
         return;
     }
+    
     const listItem = document.createElement('li');
     listItem.innerHTML = ${description} <span>$${amount.toFixed(2)}</span>;
     expenseList.appendChild(listItem);
